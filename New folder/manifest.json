@@ -1,0 +1,27 @@
+{
+  "name": "Broken Background Color",
+  "version": "1.0",
+  "description": "Fix an Extension!",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "options_page": "option.html",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "img1.png",
+      "32": "img2.png",
+      "48": "img3.png",
+      "128": "img4.png"
+    }
+  },
+  "icons": {
+    "16": "img1.png",
+    "32": "img2.png",
+    "48": "img3.png",
+    "128": "img4.png"
+  },
+  "manifest_version": 2
+}

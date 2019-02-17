@@ -1,0 +1,19 @@
+{
+  "name": "Background Color Picker",
+  "description": "Changes the background color to increase readability.",
+  "version": "1.0",
+  "options_page": "options.html",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+ "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Background Color Picker"
+  },
+  "manifest_version": 2
+}
